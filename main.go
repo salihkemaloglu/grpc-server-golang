@@ -1,7 +1,7 @@
  package main
 
 import (
-	"github.com/mongodb/mongo-go-driver/mongo"
+
 	"github.com/easyCZ/grpc-web-hacker-news/server/middleware"
 	"context"
 	"fmt"
@@ -15,6 +15,7 @@ import (
 	"github.com/improbable-eng/grpc-web/go/grpcweb"
 	"github.com/rs/cors"
 	"github.com/salihkemaloglu/Demserver-beta-01/proto"
+	"github.com/salihkemaloglu/Demserver-beta-01/middleware"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/grpclog"
