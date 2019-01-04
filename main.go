@@ -2,7 +2,7 @@
 
 import (
 
-	"github.com/easyCZ/grpc-web-hacker-news/server/middleware"
+	
 	"context"
 	"fmt"
 	"log"
